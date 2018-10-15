@@ -1,7 +1,12 @@
 import React from "react"
+import PropTypes from "prop-types"
 
 class ApiCall extends React.Component {
   state = {}
+
+  static propTypes = {
+    symbol: PropTypes.string.isRequired
+  }
 
   componentDidMount() {
     fetch(`https://api.iextrading.com/1.0/stock/${this.props.symbol}/price`)
