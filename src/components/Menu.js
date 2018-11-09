@@ -132,13 +132,13 @@ class Menu extends Component {
         </button>
         <ul className={this.state.show ? "open" : "closed"}>
           <li>
-            <Anchor href="dummy" text="Link 1" />
+            <Anchor href="#" text="Link 1" />
           </li>
           <li>
-            <Anchor href="dummy" text="Link 2" />
+            <Anchor href="#" text="Link 2" />
           </li>
           <li>
-            <Anchor href="dummy" text="Link 3" />
+            <Anchor href="#" text="Link 3" />
           </li>
         </ul>
       </StyledMenu>
